@@ -1,0 +1,10 @@
+Algorithm
+
+a = [1,2,3]
+result = []
+s = 0
+for item in a:
+    s += item
+    result.append(s)
+
+print(result)

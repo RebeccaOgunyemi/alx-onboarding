@@ -1,0 +1,8 @@
+Algorithm
+
+nums = []
+one = nums.append(float(input("Please input a number : ")))
+two = nums.append(float(input("Please input a second number : ")))
+three = nums.append(float(input("Please input a third number : ")))
+for num in sorted(nums):
+    print (num)
